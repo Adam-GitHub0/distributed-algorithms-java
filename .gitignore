@@ -1,0 +1,13 @@
+**/bin/
+**/target/
+*.class
+*.log
+*.output
+*.stdout
+*.stderr
+.project
+.classpath
+.settings/
+.idea/
+.vscode/
+.DS_Store
