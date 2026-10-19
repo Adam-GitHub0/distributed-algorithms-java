@@ -23,6 +23,3 @@ The process keeps listening after writing decisions. Stop it with Ctrl+C to flus
 
 Key classes: [`MultiShotLA.java`](src/main/java/cs451/MultiShotLA.java), [`LatticeAgreementSingleShot.java`](src/main/java/cs451/LatticeAgreementSingleShot.java), and [`LAMessageBinary.java`](src/main/java/cs451/LAMessageBinary.java).
 
-## Limitations
-
-This is a course prototype. The UDP transport has bounded retransmission and does not establish formal Perfect Links guarantees under arbitrary loss. There is no Byzantine fault-tolerance claim.
