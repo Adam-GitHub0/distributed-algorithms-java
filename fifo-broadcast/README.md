@@ -15,6 +15,3 @@ Launch one process per host ID with the same hosts file (`id address port` on ea
 
 Key classes: [`UniformReliableBroadcast.java`](src/main/java/cs451/UniformReliableBroadcast.java), [`FIFOBroadcast.java`](src/main/java/cs451/FIFOBroadcast.java), and [`UnicastSender.java`](src/main/java/cs451/UnicastSender.java).
 
-## Limitations
-
-The sender uses a fixed retry limit, so this implementation does not guarantee delivery under arbitrary packet loss despite the `PerfectLink` class name. Its FIFO property concerns messages from the same original sender; it does not establish causal ordering between different senders. This is a course prototype, not a hardened network service.
